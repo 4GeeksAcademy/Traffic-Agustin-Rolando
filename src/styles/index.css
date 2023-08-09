@@ -10,3 +10,20 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.btn-success.glow-button {
+    --box-shadow-color: #28a745;
+    box-shadow: 0 0 15px 5px var(--box-shadow-color);
+}
+  
+.btn-danger.glow-button {
+    --box-shadow-color: #dc3545;
+    box-shadow: 0 0 15px 5px var(--box-shadow-color);
+}
+  
+.btn-warning.glow-button {
+    --box-shadow-color: #ffc107;
+    box-shadow: 0 0 15px 5px var(--box-shadow-color);
+}
+.palo{
+    height: 600px;
+}
