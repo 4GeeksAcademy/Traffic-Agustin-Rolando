@@ -27,3 +27,16 @@
 .palo{
     height: 600px;
 }
+.btn-purple {
+    background-color: purple;
+}
+
+.btn-purple:hover {
+    background-color: #4b0082; 
+}
+
+.btn-purple.glow-button {
+    --box-shadow-color: #c507ff;
+    box-shadow: 0 0 15px 5px var(--box-shadow-color);
+ 
+}
